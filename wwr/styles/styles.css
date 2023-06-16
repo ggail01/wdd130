@@ -55,7 +55,7 @@ main section {
     text-align: center;
 }
 
-#background{
+#background {
     height: 725px;
     background-color: #4cb5e6;
     grid-column: 1/11;
@@ -137,7 +137,7 @@ h4 {
 
 .msg h2 {
     color: whitesmoke;
-    font-family: Inconsolata, Comme, sans-serif;;
+    font-family: Inconsolata, Comme, sans-serif;
 }
 
 .msg p {
