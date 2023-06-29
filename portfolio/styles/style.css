@@ -1,0 +1,203 @@
+/* if you are using any Google fonts change the font names below to your fonts. 
+Any spaces in your font name should be replaced with a +. 
+Fonts are separated by a | */
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Comme:wght@300&family=Inconsolata&display=swap');
+
+:root {
+    /* create color pallete */
+    --primary-color: #279092;
+    --secondary-color: #117387;
+    --accent1-color: #bebebe;
+    --accent2-color: #1B2C36;
+
+    --white-color: #FFF;
+}
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin-bottom: 30px;
+    margin-top: 20px;
+    background-color: var(--accent2-color);
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    width: 1094px;
+    margin: 0 auto;
+}
+
+nav p {
+    color: var(--primary-color);
+    font-family: Inconsolata, Comme, sans-serif;
+    font-weight: 450px;
+    font-size: 2em;
+}
+
+nav a {
+    text-decoration: none;
+    text-align: center;
+    color: var(--accent1-color);
+    align-self: center;
+    font-family: Inconsolata, Comme, sans-serif;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+nav a:hover {
+    text-decoration: none;
+    color: var(--accent2-color);
+    background-color: var(--accent1-color);
+}
+
+nav a:link {
+    text-decoration: none;
+    color: var(--white-color);
+}
+
+.logo {
+    width: 100px;
+    margin: 5px;
+}
+
+nav h1 {
+    grid-column: 1/1;
+    grid-row: 1/1;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 144px 1fr;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+#PhotoContainer {
+    grid-column: 1/1;
+    grid-row: 1/1;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 200px 60px 50px;
+}
+
+#PhotoContainer img {
+    grid-column: 1/1;
+    grid-row: 1/1;
+    box-shadow: 5px 5px 10px #065767;
+}
+
+#PhotoContainer h1 {
+    grid-column: 1/3;
+    grid-row: 3/4;
+    box-sizing: border-box;
+    color: var(--white-color);
+    font-family: Alkatra, Inconsolata, sans-serif;
+    font-size: 2.5em;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+#PhotoContainer a {
+    margin: 0 auto;
+    grid-column: 1/2;
+    grid-row: 4/5;
+    box-sizing: border-box;
+    color: var(--white-color);
+    font-family: Inconsolata, Comme, sans-serif;
+    text-decoration: none;
+}
+
+#PhotoContainer a:hover {
+    color: #4cb5e6;
+}
+
+#DesignContainer {
+    grid-column: 3/4;
+    grid-row: 1/1;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 200px 60px 50px;
+}
+
+#DesignContainer img {
+    grid-column: 1/1;
+    grid-row: 1/1;
+    box-shadow: 5px 5px 10px #065767;
+}
+
+#DesignContainer h1 {
+    grid-column: 1/3;
+    grid-row: 3/4;
+    box-sizing: border-box;
+    color: var(--white-color);
+    font-family: Alkatra, Inconsolata, sans-serif;
+    font-size: 2.5em;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+#DesignContainer a {
+    margin: 0 auto;
+    grid-column: 1/2;
+    grid-row: 4/5;
+    box-sizing: border-box;
+    color: var(--white-color);
+    font-family: Inconsolata, Comme, sans-serif;
+    text-decoration: none;
+}
+
+#DesignContainer a:hover {
+    color: #4cb5e6;
+}
+
+footer {
+    background-color: var(--accent2-color);
+    color: var(--accent1-color);
+    padding: 10px;
+    margin-top: 90px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+footer .social img {
+    margin-left: 10px;
+}
+
+footer p {
+    color: var(--white-color);
+    font-family: Inconsolata, Comme, sans-serif;
+    box-sizing: border-box;
+    margin-left: 800px;
+}
+
+footer .links a:link {
+    color: var(--white-color);
+    font-family: Inconsolata, Comme, sans-serif;
+    text-decoration: none;
+    margin-left: 100px;
+    padding: 10px;
+}
+
+footer .links a:hover {
+    background-color: var(--accent1-color);
+    color: var(--accent2-color);
+    padding: 10px;
+    box-sizing: border-box;
+}
