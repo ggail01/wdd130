@@ -40,9 +40,10 @@ nav {
 }
 
 nav p {
-    color: var(--primary-color);
+    color: var(--accent1-color);
     font-family: Inconsolata, Comme, sans-serif;
-    font-weight: 450px;
+    margin-top: 40px;
+    font-weight: 800px;
     font-size: 2em;
 }
 
@@ -95,6 +96,7 @@ main {
 #PhotoContainer img {
     grid-column: 1/1;
     grid-row: 1/1;
+    width: 720px;
     box-shadow: 5px 5px 10px #065767;
 }
 
@@ -135,6 +137,8 @@ main {
 #DesignContainer img {
     grid-column: 1/1;
     grid-row: 1/1;
+    width: 725px;
+    height: 445px;
     box-shadow: 5px 5px 10px #065767;
 }
 
@@ -166,7 +170,7 @@ main {
 
 footer {
     background-color: var(--accent2-color);
-    color: var(--accent2-color);
+    color: var(--white-color);
     padding: 10px;
     margin-top: 90px;
     margin-bottom: 20px;
