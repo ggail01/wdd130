@@ -187,7 +187,7 @@ footer p {
     color: var(--white-color);
     font-family: Inconsolata, Comme, sans-serif;
     box-sizing: border-box;
-    margin-left: 750px;
+    margin-left: 600px;
 }
 
 footer .links a {
@@ -242,20 +242,13 @@ footer .links a:hover {
 .photo-title {
     text-align: center;
     font-family: Alkatra, Inconsolata, sans-serif;
+    font-size: 1.4em;
     margin-bottom: 50px;
   }
 
 .photos-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-}
-
-.photo-three-card {
-    margin-left: -70px;
-}
-
-.photo-three-card h2 {
-    margin-left: 70px;
 }
 
 .photo-two-card,
