@@ -187,7 +187,7 @@ footer p {
     color: var(--white-color);
     font-family: Inconsolata, Comme, sans-serif;
     box-sizing: border-box;
-    margin-left: 800px;
+    margin-left: 750px;
 }
 
 footer .links a {
@@ -204,4 +204,74 @@ footer .links a:hover {
     padding: 10px;
     text-decoration: underline;
     box-sizing: border-box;
+}
+
+
+/* Page two style */
+.hero-photo {
+    display: flex;
+    background-color: var(--secondary-color);
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+.hero-photo-image {
+    flex: 1;
+    margin-left: 100px;
+}
+
+.hero-photo-image img {
+    display: grid;
+    width: 500px;
+    height: 300px;
+    box-shadow: 5px 5px 10px var(--accent1-color);
+  }
+
+.hero-photo-text {
+    font-family: Comme, Inconsolata, sans-serif;
+    font-size: 1.2em;
+    color: var(--white-color);
+    text-align: center;
+    flex: 2;
+    padding-left: 20px;
+    margin-right: 100px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.photo-title {
+    text-align: center;
+    font-family: Alkatra, Inconsolata, sans-serif;
+    margin-bottom: 50px;
+  }
+
+.photos-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.photo-three-card {
+    margin-left: -70px;
+}
+
+.photo-three-card h2 {
+    margin-left: 60px;
+}
+
+.photo-two-card,
+.photo-three-card,
+.photo-four-card {
+    font-family: Comme, Inconsalata, sans-serif;
+    text-align: center;
+}
+
+.card-img {
+    border: 7px solid #065767;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.card-img:hover {
+    opacity: .6;
+    transform: scale(1.1);
 }
