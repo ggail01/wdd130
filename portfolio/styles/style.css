@@ -273,33 +273,18 @@ footer .links a:hover {
 
 /* --Components: Modal Images--
     --Style the Image Used to Trigger the Modal-- */
-#PhotoImg {
+#PhotoImg, #PhotoImg2, #PhotoImg3,
+#PhotoImg4, #PhotoImg5, #PhotoImg6,
+#PhotoImg7 {
     border-radius: 15px;
     cursor: pointer;
     transition: 0.3s;
 }
 
-#PhotoImg:hover {
-    opacity: 0.7;
-}
-
-#PhotoImg2 {
-    border-radius: 15px;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-#PhotoImg2:hover {
-    opacity: 0.7;
-}
-
-#PhotoImg3 {
-    border-radius: 15px;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-#PhotoImg3:hover {
+#PhotoImg:hover, #PhotoImg2:hover, 
+#PhotoImg3:hover, #PhotoImg4:hover, 
+#PhotoImg5:hover, #PhotoImg6:hover,
+#PhotoImg7:hover {
     opacity: 0.7;
 }
 
@@ -317,7 +302,7 @@ footer .links a:hover {
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
 }
-  
+
 /* Modal Content (Image) */
 .modal-content {
     margin: auto;
