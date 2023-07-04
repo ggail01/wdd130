@@ -283,6 +283,26 @@ footer .links a:hover {
     opacity: 0.7;
 }
 
+#PhotoImg2 {
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#PhotoImg2:hover {
+    opacity: 0.7;
+}
+
+#PhotoImg3 {
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#PhotoImg3:hover {
+    opacity: 0.7;
+}
+
 /* The Modal (background) */
 .modal {
     display: none; /* Hidden by default */
