@@ -22,6 +22,7 @@ Fonts are separated by a | */
 body {
     margin: 0;
     padding: 0;
+    background-color: var(--secondary-color);
 }
 
 header {
@@ -97,7 +98,7 @@ main {
     grid-column: 1/1;
     grid-row: 1/1;
     width: 720px;
-    box-shadow: 5px 5px 10px #065767;
+    box-shadow: 5px 5px 10px var(--accent1-color);
 }
 
 #PhotoContainer h1 {
@@ -139,7 +140,7 @@ main {
     grid-row: 1/1;
     width: 725px;
     height: 445px;
-    box-shadow: 5px 5px 10px #065767;
+    box-shadow: 5px 5px 10px var(--accent1-color);
 }
 
 #DesignContainer h1 {
@@ -168,12 +169,35 @@ main {
     color: #4cb5e6;
 }
 
+.Photo-text {
+    grid-row: 3; /* Position the element in the third row */
+    margin-top: 100px;
+}
+
+.Photo-text h2 {
+    color: var(--black-color);
+    font-family: Alkatra, Inconsolata, sans-serif;
+    font-size: 2em;
+    margin-left: 100px;
+    text-shadow: 3px 3px 3px var(--accent2-color);
+}
+
+.Photo-text p {
+    color: var(--black-color);
+    font-family: Comme, Inconsolata, sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: -600px;
+    text-shadow: 3px 3px 3px var(--primary-color);
+}
+
 footer {
     background-color: var(--accent2-color);
     color: var(--white-color);
     padding: 10px;
     margin-top: 90px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -255,7 +279,7 @@ footer .links a:hover {
 .photo-two-card,
 .photo-three-card,
 .photo-four-card {
-    font-family: Comme, Inconsalata, sans-serif;
+    font-family: Comme, Inconsolata, sans-serif;
     text-align: center;
 }
 
@@ -353,8 +377,78 @@ footer .links a:hover {
 }
 
 
+/* Page Three (Design Webpage) style */
+.hero-design {
+    display: flex;
+    background-color: var(--accent1-color);
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 
+.hero-design-image {
+    flex: 1;
+    margin-left: 100px;
+}
+
+.hero-design-image img {
+    display: grid;
+    width: 600px;
+    height: 450px;
+    box-shadow: 5px 5px 10px var(--accent2-color);
+}
+
+.hero-design-text {
+    font-family: Comme, Inconsolata sans-serif;
+    font-size: 1em;
+    color: var(--white-color);
+    background-color: var(--primary-color);
+    text-align: center;
+    flex: 2;
+    padding: 30px;
+    margin-right: 100px;
+    margin-top: 10px;
+    margin-left: -100px;
+    box-shadow: 5px 5px 10px var(--accent2-color);
+}
+
+.intro {
+    display: grid;
+    grid-template-columns: 100px 1fr 200px 1fr 100px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.intro #PhotoImg3 {
+    grid-column: 2/3;
+    width: 500px;
+    height: 450px;
+    margin-left: 90px;
+    box-shadow: 5px 5px 10px var(--accent1-color);
+}
+
+.intro h1 {
+    grid-column: 3/4;
+    box-sizing: border-box;
+    padding: 10px;
+    line-height: 170%; 
+    text-align: center;
+    font-size: 1.3em;
+    font-family: Inconsolata, Comme, sans-serif;
+    font-weight: 100;
+}
+
+.intro #PhotoImg4 {
+    grid-column: 4/5;
+    width: 500px;
+    height: 450px;
+    box-shadow: 5px 5px 10px var(--accent1-color);
+}
   
+
+
 /* 100% Image Width on Smaller Screens */
 @media only screen and (max-width: 700px) {
     .modal-content {
