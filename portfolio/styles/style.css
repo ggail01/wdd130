@@ -401,7 +401,7 @@ footer .links a:hover {
 }
 
 .hero-design-text {
-    font-family: Comme, Inconsolata sans-serif;
+    font-family: Comme, Inconsolata, sans-serif;
     font-size: 1em;
     color: var(--white-color);
     background-color: var(--primary-color);
