@@ -6,8 +6,8 @@ Fonts are separated by a | */
 :root {
     /* create color pallete */
     --primary-color: #279092;
-    --secondary-color: #117387;
-    --accent1-color: #bebebe;
+    --secondary-color: #065767;
+    --accent1-color: #A5A5A5;
     --accent2-color: #1B2C36;
 
     --white-color: #FFF;
@@ -98,7 +98,7 @@ main {
     grid-column: 1/1;
     grid-row: 1/1;
     width: 720px;
-    box-shadow: 5px 5px 10px var(--accent1-color);
+    box-shadow: 5px 10px 10px var(--accent1-color);
 }
 
 #PhotoContainer h1 {
@@ -140,7 +140,7 @@ main {
     grid-row: 1/1;
     width: 725px;
     height: 445px;
-    box-shadow: 5px 5px 10px var(--accent1-color);
+    box-shadow: 10px 10px 10px var(--accent1-color);
 }
 
 #DesignContainer h1 {
@@ -179,7 +179,7 @@ main {
     font-family: Alkatra, Inconsolata, sans-serif;
     font-size: 2em;
     margin-left: 100px;
-    text-shadow: 3px 3px 3px var(--accent2-color);
+    text-shadow: 2px 2px 2px var(--accent2-color);
 }
 
 .Photo-text p {
@@ -189,7 +189,7 @@ main {
     text-align: center;
     margin-left: 200px;
     margin-right: -600px;
-    text-shadow: 3px 3px 3px var(--primary-color);
+    text-shadow: 2px 2px 2px var(--primary-color);
 }
 
 footer {
@@ -249,7 +249,7 @@ footer .links a:hover {
     display: grid;
     width: 500px;
     height: 300px;
-    box-shadow: 5px 5px 10px var(--accent2-color);
+    box-shadow: 10px 10px 10px var(--secondary-color);
   }
 
 .hero-photo-text {
@@ -284,9 +284,9 @@ footer .links a:hover {
 }
 
 .card-img {
-    border: 7px solid #065767;
+    border: 7px solid var(--primary-color);
     transition: transform .5s;
-    box-shadow: 5px 5px 10px var(--accent1-color);
+    box-shadow: 10px 10px 10px var(--accent2-color);
 }
 
 .card-img:hover {
@@ -397,21 +397,21 @@ footer .links a:hover {
     display: grid;
     width: 600px;
     height: 450px;
-    box-shadow: 5px 5px 10px var(--accent2-color);
+    box-shadow: 10px 10px 10px var(--secondary-color);
 }
 
 .hero-design-text {
     font-family: Comme, Inconsolata, sans-serif;
     font-size: 1em;
     color: var(--white-color);
-    background-color: var(--primary-color);
+    background-color: var(--accent2-color);
     text-align: center;
     flex: 2;
     padding: 30px;
     margin-right: 100px;
     margin-top: 10px;
     margin-left: -100px;
-    box-shadow: 5px 5px 10px var(--accent2-color);
+    box-shadow: 10px 10px 10px var(--primary-color);
 }
 
 .intro {
@@ -426,7 +426,7 @@ footer .links a:hover {
     width: 500px;
     height: 450px;
     margin-left: 90px;
-    box-shadow: 5px 5px 10px var(--accent1-color);
+    box-shadow: 10px 10px 10px var(--accent1-color);
 }
 
 .intro h1 {
@@ -444,7 +444,7 @@ footer .links a:hover {
     grid-column: 4/5;
     width: 500px;
     height: 450px;
-    box-shadow: 5px 5px 10px var(--accent1-color);
+    box-shadow: 10px 10px 10px var(--accent1-color);
 }
   
 
