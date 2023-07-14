@@ -98,7 +98,7 @@ main {
     grid-column: 1/1;
     grid-row: 1/1;
     width: 720px;
-    box-shadow: 5px 10px 10px var(--accent1-color);
+    box-shadow: 5px 10px 10px var(--primary-color);
 }
 
 #PhotoContainer h1 {
@@ -140,7 +140,7 @@ main {
     grid-row: 1/1;
     width: 725px;
     height: 445px;
-    box-shadow: 10px 10px 10px var(--accent1-color);
+    box-shadow: 10px 10px 10px var(--primary-color);
 }
 
 #DesignContainer h1 {
@@ -175,21 +175,21 @@ main {
 }
 
 .Photo-text h2 {
-    color: var(--black-color);
+    color: var(--accent1-color);
     font-family: Alkatra, Inconsolata, sans-serif;
     font-size: 2em;
     margin-left: 100px;
-    text-shadow: 2px 2px 2px var(--accent2-color);
+    text-shadow: 5px 5px 5px var(--accent2-color);
 }
 
 .Photo-text p {
-    color: var(--black-color);
+    color: var(--white-color);
     font-family: Comme, Inconsolata, sans-serif;
     font-size: 1.5em;
     text-align: center;
     margin-left: 200px;
     margin-right: -600px;
-    text-shadow: 2px 2px 2px var(--primary-color);
+    text-shadow: 4px 4px 4px var(--accent2-color);
 }
 
 footer {
